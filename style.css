@@ -135,9 +135,10 @@ hr {
   height: 279px;
   width: 252px;
   border-radius: 10px;
-  background-color: lightgoldenrodyellow;
+  background-color: white;
   justify-content: center;
   margin: 15px;
+  box-shadow: 10px 10px 20px lightgrey;
 }
 .fa-star {
   color: orange;
