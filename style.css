@@ -118,6 +118,10 @@ hr {
   color: #562eff;
 }
 
+/* third-course-section */
+.third-container {
+  height: 415px;
+}
 .course-image img {
   width: 224px;
   height: 104px;
@@ -164,4 +168,21 @@ hr {
 .course-align {
   position: relative;
   left: 15px;
+}
+
+/* responsive web design */
+@media (max-width: 911px) {
+  .header-logo {
+    margin: 0 383px;
+  }
+  .nav-bar {
+    display: none;
+  }
+  h2 {
+    text-align: center;
+  }
+  .player-div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
